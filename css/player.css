@@ -171,7 +171,9 @@ input:checked + .slider:before {
     .episode-grid {
         max-height: 40vh; /* 移动端增加集数列表高度 */
     }
-    
+    #player {
+        height: 30vh;
+    }   
     /* 改进移动端按钮显示 */
     button {
         white-space: nowrap;
@@ -181,4 +183,8 @@ input:checked + .slider:before {
     .player-container .flex-wrap {
         margin-bottom: 4px;
     }
+}
+/* 新增：隐藏DPlayer菜单 */
+.dplayer-menu.dplayer-menu-show {
+    display: none !important;
 }
