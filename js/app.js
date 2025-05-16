@@ -1,5 +1,5 @@
 // 全局变量
-let selectedAPIs = JSON.parse(localStorage.getItem('selectedAPIs') || '["tyyszy","dyttzy", "bfzy", "ruyi"]'); // 默认选中天涯资源、暴风资源和如意资源
+let selectedAPIs = JSON.parse(localStorage.getItem('selectedAPIs') || '["ruyi","dyttzy","hwba","ffzy","lzzy","bfzy","qiqikp","heimuer","mdzy","mozhua","wolong","tyyszy","ikunzy","zy360","wujin","zuida","dbzy","jisu"]'); // 默认选中天涯资源、暴风资源和如意资源
 let customAPIs = JSON.parse(localStorage.getItem('customAPIs') || '[]'); // 存储自定义API列表
 
 // 添加当前播放的集数索引
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 设置默认API选择（如果是第一次加载）
     if (!localStorage.getItem('hasInitializedDefaults')) {
         // 仅选择天涯资源、暴风资源和如意资源
-        selectedAPIs = ["tyyszy","bfzy","dyttzy", "ruyi"];
+        selectedAPIs = ["ruyi","dyttzy","hwba","ffzy","lzzy","bfzy","qiqikp","heimuer","mdzy","mozhua","wolong","tyyszy","ikunzy","zy360","wujin","zuida","dbzy","jisu"];
         localStorage.setItem('selectedAPIs', JSON.stringify(selectedAPIs));
         
         // 默认选中过滤开关
@@ -78,7 +78,7 @@ function initAPICheckboxes() {
     // 创建普通API源的复选框
     Object.keys(API_SITES).forEach(apiKey => {
         const api = API_SITES[apiKey];
-        if (api.adult) return; // 跳过成人内容API，稍后添加
+        //if (api.adult) return; // 跳过成人内容API，稍后添加
         
         const checked = selectedAPIs.includes(apiKey);
         
