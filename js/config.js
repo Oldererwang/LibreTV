@@ -21,7 +21,7 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    ruyi: {
+     ruyi: {
         api: 'https://cj.rycjapi.com',
         name: '如意资源',
     },
