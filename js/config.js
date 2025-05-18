@@ -21,84 +21,88 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-     ruyi: {
-        api: 'https://cj.rycjapi.com',
+    ruyi: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
     },
 	dyttzy: {
-        api: 'http://caiji.dyttzyapi.com',
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com',
     },
     hwba: {
-        api: 'https://cjhwba.com',
+        api: 'https://cjhwba.com/api.php/provide/vod',
         name: '华为吧资源',
     },
     ffzy: {
-        api: 'http://ffzy5.tv',
+        api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
         detail: 'http://ffzy5.tv'
     },
     lzzy: {
-        api: 'https://cj.lziapi.com',
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
         name: '量子资源',
     },
     bfzy: {
-        api: 'https://bfzyapi.com',
+        api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风资源',
     },
     qiqikp: {
-        api: 'https://www.77kkpp.com',
+        api: 'https://www.77kkpp.com/api.php/provide/vod',
         name: '七七看片',
     },
     heimuer: {
-        api: 'https://json.heimuer.xyz',
+        api: 'https://json.heimuer.xyz/api.php/provide/vod',
         name: '黑木耳',
         detail: 'https://heimuer.tv'
     },
     mdzy: {
-        api: 'https://www.mdzyapi.com',
+        api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔都资源',
     },
 	mozhua: {
-        api: 'https://mozhuazy.com',
+        api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪资源',
     },
     wolong: {
-        api: 'https://collect.wolongzy.cc',
+        api: 'https://collect.wolongzy.cc/api.php/provide/vod',
         name: '卧龙资源',
     },
     tyyszy: {
-        api: 'https://tyyszyapi.com',
+        api: 'https://tyyszyapi.com/api.php/provide/vod',
         name: '天涯资源',
     },
     ikunzy: {
-        api: 'https://ikunzyapi.com',
+        api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源',
     },
     zy360: {
-        api: 'https://360zy.com',
+        api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
     },
     wujin: {
-        api: 'https://api.wujinapi.me',
+        api: 'https://api.wujinapi.me/api.php/provide/vod',
         name: '无尽资源',
     },
     zuida: {
-        api: 'https://api.zuidapi.com',
+        api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源',
     },
 	dbzy: {
-        api: 'https://caiji.dbzy5.com',
+        api: 'https://caiji.dbzy5.com/api.php/provide/vod',
         name: '豆瓣资源',
     },
     jisu: {
-        api: 'https://jszyapi.com',
+        api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速资源',
         detail: 'https://jszyapi.com'
     },
+	iqiyi: {
+        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+        name: 'iqiyi资源',
+    },
     wwzy: {
-        api: 'https://wwzy.tv',
+        api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺短剧'
     },
 
@@ -106,47 +110,47 @@ const API_SITES = {
 
 
     yutuzy: {
-        api: 'https://yutuzy10.com',
+        api: 'https://yutuzy10.com/api.php/provide/vod',
         name: '玉兔资源',
         adult: true
     },	
     ckzy: {
-        api: 'https://www.ckzy1.com',
+        api: 'https://www.ckzy1.com/api.php/provide/vod',
         name: 'CK资源',
         adult: true
     },
     jkun: {
-        api: 'https://jkunzyapi.com',
+        api: 'https://jkunzyapi.com/api.php/provide/vod',
         name: 'jkun资源',
         adult: true
     },
     bwzy: {
-        api: 'https://api.bwzym3u8.com',
+        api: 'https://api.bwzym3u8.com/api.php/provide/vod',
         name: '百万资源',
         adult: true
     },
     souav: {
-        api: 'https://api.souavzy.vip',
+        api: 'https://api.souavzy.vip/api.php/provide/vod',
         name: 'souav资源',
         adult: true
     },
     siwa: {
-        api: 'https://siwazyw.tv',
+        api: 'https://siwazyw.tv/api.php/provide/vod',
         name: '丝袜资源',
         adult: true
     },
     r155: {
-        api: 'https://155api.com',
+        api: 'https://155api.com/api.php/provide/vod',
         name: '155资源',
         adult: true
     },
     lsb: {
-        api: 'https://apilsbzy1.com',
+        api: 'https://apilsbzy1.com/api.php/provide/vod',
         name: 'lsb资源',
         adult: true
     },
     huangcang: {
-        api: 'https://hsckzy.vip',
+        api: 'https://hsckzy.vip/api.php/provide/vod',
         name: '黄色仓库',
         adult: true,
         detail: 'https://hsckzy.vip' // 添加detail URL以便特殊处理
