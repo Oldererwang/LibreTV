@@ -97,7 +97,7 @@ const API_SITES = {
         name: '极速资源',
         detail: 'https://jszyapi.com'
     },
-	iqiyi: {
+    iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
     },
